@@ -1,0 +1,31 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-app-container{
+  background-color: #F4F5F8;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.body-section-container{
+  min-height: calc(100vh - 88px);
+  background-color: #fff;
+  width: 50%;
+  margin: auto;
+}
+
+.home-page-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  background-color: white;
+
+  @media only screen and (max-width: 1200px) {
+    width: 90%;
+  }
+}
+
+

@@ -1,0 +1,13 @@
+.row-item-ctn{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  @media only screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
+}
+
+.separator-container{
+  border-bottom: 1px solid #F4F5F8;
+  margin-bottom: 20px;
+}
